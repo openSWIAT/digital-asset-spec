@@ -79,8 +79,19 @@ ISO 10962 standard for financial instrument categorization is extended as follow
 # Examples
 
 A Digital Asset is fully characterised through
-•	Digital Asset Category
-•	Sub-categorization of the Digital Asset Type
-•	Category of the Digital System of Record that Digital Asset exists in
+*	Digital Asset Category
+*	Sub-categorization of the Digital Asset Type
+*	Category of the Digital System of Record that Digital Asset exists in
 
-..todo...
+| Case | Digital Asset Category | Asset-Type Specific Category | Digital System of Record Category | Comment |
+|------|------------------------|------------------------------|-----------------------------------|---------|
+| Bitcoin                                                                                    | SCFN                   | n/a                                           | MOL                               | Makes only sense on blockchain / DLT, since only blockchain can guarantee the autonomous execution.                                                                                                     |
+| Ethereum                                                                                   | SCFN                   | n/a                                           | MOF                               | Same comment as for Bitcoin.                                                                                                                                                                            |
+| USDT stable coin on Ethereum Mainnet                                                      | SFFS                   | T???XX (tbd, see ext. ISO 10962)              | MOF                               |                                                                                                                                                                                                         |
+| Zero Bond as bearer instrument directly issued on Polygon Network as crypto security      | SFFS                   | DBZUFB (ISO 10962)                            | MOF                               |                                                                                                                                                                                                         |
+| Zero Bond issued via a central securities depository that is booked in investor’s depot in the book-keeping system of investor's custodian bank | RFFS                   | DBZUFB (ISO 10962)                            | SCN                               |                                                                                                                                                                                                         |
+| Zero Bond onramped by a custodian on private/permissioned SWIAT blockchain (tokenized security) | RFFS                   | DBZUFB (ISO 10962)                            | MCF                               | Note that no matter if a book-entry in depot bank’s system or as tokenized security, the asset type remains the same. The only difference is the Digital System of Record Category.                     |
+| Soulbound Token on Ethereum Mainnet                                                       | SUXN                   | tbd                                           | MOF                               |                                                                                                                                                                                                         |
+| Cash Deposit in the Core Banking System of a Bank                                         | SDFS                   | tbd                                           | SCN                               |                                                                                                                                                                                                         |
+| Cash Deposit managed on Ethereum Mainnet                                                  | SFDS                   | tbd                                           | MOF                               | Note that the only difference lies in the Digital System of Record Category.                                                                                                                             |
+
