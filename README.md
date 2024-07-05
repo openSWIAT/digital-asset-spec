@@ -24,27 +24,25 @@ This digital asset classification framework focuses on defining the universal pr
 
 **Digital Asset Category** means a 4-letter code defined as follows:
 
-**Form**
-* **(S) Source Record** means a Digital Asset representing the primary record of value. (e.g. a Security Token directly issued on-chain, a native crypto-currency like Bitcoin or Ethereum, etc.)
-* **(R) Reference Record** means the record is representing an asset, or fraction of it, that has been immobilized on another Digital System of Record.  (e.g. a book-entry for a security ownership * in depot book-keeping system in a custodian bank, onramped traditional security, aka tokenized security, etc.)
-
-**Type** *Note: each of asset classes further divides into more specific categorization*
-* **(F) Financial Instrument** (includes securities)
-  * sub-categorization: extended ISO 10962 
-* **(D) Deposit**
-  * sub-categorization tbd…
-* **(C) Cryptocurrency**
-  * ub-categorization: needed?
-* **(A) Alternative Assets** (e.g. goods, real estate, non-financial assets, physical commodities, …)
-  * sub-categorization: tbd…
-* **(U) Utility (Functional)**
-  * sub-categorization: tbd…
-* **(M) Other (Misc.)**
-
-**Fungibility & Transferability**
-* **(F) fungible, transferrable**
-* **(N) non-fungible, transferrable**
-* **(X) non-fungible, non-transferrable**
+* **Form**
+  * **(S) Source Record** means a Digital Asset representing the primary record of value. (e.g. a Security Token directly issued on-chain, a native crypto-currency like Bitcoin or Ethereum, etc.)
+  * **(R) Reference Record** means the record is representing an asset, or fraction of it, that has been immobilized on another Digital System of Record.  (e.g. a book-entry for a security ownership * in depot book-keeping system in a custodian bank, onramped traditional security, aka tokenized security, etc.)
+* **Type** *Note: each of asset classes further divides into more specific categorization*
+  * **(F) Financial Instrument** (includes securities)
+    * sub-categorization: extended ISO 10962 
+  * **(D) Deposit**
+    * sub-categorization tbd…
+  * **(C) Cryptocurrency**
+    * ub-categorization: needed?
+  * **(A) Alternative Assets** (e.g. goods, real estate, non-financial assets, physical commodities, …)
+    * sub-categorization: tbd…
+  * **(U) Utility (Functional)**
+    * sub-categorization: tbd…
+  * **(M) Other (Misc.)**
+* **Fungibility & Transferability**
+  * **(F) fungible, transferrable**
+  * **(N) non-fungible, transferrable**
+  * **(X) non-fungible, non-transferrable**
 
 **Administrability**
 * **(N) not administrable (autonomous)** means rules are predefined in code and can not be changed by a Digital Asset Operator.
