@@ -1,7 +1,7 @@
 ---
 Title: Unified Digital Asset Classification Framework
 Authors: Ivica Aračić (SWIAT), Frederic von Normann (SWIAT)
-Version: 20240705
+Version: 20250303
 Status: DRAFT
 License: CC0 1.0 UNIVERSAL
 ---
