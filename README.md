@@ -64,7 +64,7 @@ This digital asset classification framework focuses on defining the universal pr
 
 **Programmability**
 * **(F) full** means users of the system can write any Turing-complete programs and execute on the system, given sufficient resources. Turing-complete means that any calculation that can be described algorithmically can be performed.
-* **(L) limited** means users can write not Turing-complete programs and execute on the system, given sufficient resources. 
+* **(L) limited** means users can write limited, not Turing-complete programs and execute on the system, given sufficient resources. 
 * **(N) not programmable** means users have no possibility to write and execute own programs on the system.
 
 **Governance**
