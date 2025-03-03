@@ -68,9 +68,9 @@ This digital asset classification framework focuses on defining the universal pr
 * **(N) not programmable** means users have no possibility to write and execute own programs on the system.
 
 **Governance**
-* **(D) Decentralized Community** means governance decisions are made collectively by an open community that evolves organically from the bottom up.
-* **(F) Federated/Consortium** means governance decisions are made among members with decision-making influence weighted based on stake, size, or institutional influence.
-* **(O) Cooperative** means governance decisions are made among members using democratic voting principles, typically following a one-member, one-vote structure, ensuring equal influence regardless of financial contribution.
+* **(D) Decentralized Community** means governance decisions are made by an open community that evolved organically from the bottom up. Anyone can participate, but influence is weighted based on stake, size, or reputation.
+* **(F) Federated/Consortium** means governance is controlled by a selected group of members with weighted decision-making power based on stake, size, or influence. Participation is limited.
+* **(O) Cooperative** means governance follows a democratic model, where each vote carries equal weight. The "one member, one vote" principle ensures equal influence, regardless of financial contribution. Participation is limited.
 * **(C) Centralized** means a single entity has primary decision-making authority, controlling governance updates and system operations.
 
 # ISO10962 Extension
